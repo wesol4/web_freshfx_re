@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://twojadomena.pl/sitemap.xml
+
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /styles/

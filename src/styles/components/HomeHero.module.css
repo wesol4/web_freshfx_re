@@ -1,0 +1,39 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 40rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.imageWrapper {
+    width: 100%;
+    max-width: 28rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow:
+            0 10px 15px -3px rgba(0, 0, 0, 0.1),
+            0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
